@@ -4,17 +4,14 @@ import java.util.Arrays;
 
 public class medianaNotas {
 
-	public class MediaNotas {
 
 		/**
 		 * 
 		 * 
-		 * @param notas es el array que crearemos en el main,media nos dara la media
-		 *              segun las notas
-		 * 
+		 * @param pasamos el array para que nos de la logitud del array *
 		 * @return Nos devuelve una cosa u otrarsegun si es par o no
 		 */
-		public static float medianaNota(int[] notas) {
+		public static float notaMediana(int[] notas) {
 
 			if (notas.length == 0) {
 				throw new IllegalArgumentException("El array de notas no puede estar vacío");
@@ -40,4 +37,3 @@ public class medianaNotas {
 
 		}
 	}
-}

@@ -3,11 +3,14 @@ package Util;
 public class mediaNotas {
 
 	/**
-	 * Nos devulve la media de las notas o una exepcion si no se cumplelas normas de las notas
+	 * Nos devulve la media de las notas o una exepcion si no se cumplelas normas de
+	 * las notas
 	 * 
-	 * @param notas es el array que crearemos en el main,media nos dara la media segun las notas
+	 * @param notas es el array que crearemos en el main,media nos dara la media
+	 *              segun las notas
 	 * 
-	 * @return Nos dvuelve la media de las notas dadas por el array dividido su longitud
+	 * @return Nos dvuelve la media de las notas dadas por el array dividido su
+	 *         longitud
 	 */
 	public static float notaMedia(int[] notas) {
 
