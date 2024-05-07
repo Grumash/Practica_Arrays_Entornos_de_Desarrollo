@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+C:\Users\mouad\OneDrive\Escritorio\Practica_entornos\.metadata\.plugins\org.eclipse.jdt.core
+3986431530.index
+3829591191.index
+1387367494.index
+534654838.index
+228175302.index
+4194351887.index
+2489090262.index
+1865797976.index
+3781480384.index
+1160769439.index
+510197941.index
+1887862855.index
+4057896919.index
+2031015043.index
+617541263.index
+1036825265.index
+1433958956.index
+1930998826.index
+3413725848.index
+1401481060.index

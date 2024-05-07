@@ -1,0 +1,46 @@
+package Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import Util.minimoNota;
+
+class testMinima {
+
+
+
+
+    @Test
+    public void testmin1() {
+        int[] notas = {5, 8, 10, 2, 7};
+
+        int maximoEsperado = 2;
+        int maximoCalculado = minimoNota.notaMinima(notas);
+
+        assertEquals(maximoEsperado, maximoCalculado);
+    }
+
+    @Test
+    public void testmin2() {
+        int[] notas = {5, 2, 0, 7, 1};
+
+        int maximoEsperado = 0;
+        int maximoCalculado = minimoNota.notaMinima(notas);
+
+        assertEquals(maximoEsperado, maximoCalculado);
+    }
+
+    public void testexcepcion() {
+        int[] notas = {-2, 5, 8};
+
+        try {
+        	minimoNota.notaMinima(notas);
+            fail("Se esperaba una excepción IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Las notas no pueden ser superiores a 10 o inferiores 0", e.getMessage());
+        }
+
+}
+}

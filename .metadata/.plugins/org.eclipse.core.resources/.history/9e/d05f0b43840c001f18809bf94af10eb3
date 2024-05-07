@@ -1,0 +1,34 @@
+package Util;
+
+public class maximaNota {
+	
+	
+	/**
+     * El el nuemro mas grande que hay en el array
+     *
+     * @param notas es el array de donde sacaresmmo los numeros
+     * @return no sdevuelve le nuemro mas grande que tiene el array
+     *
+     */
+    public static int notaMaxima(int[] notas) {
+
+        if (notas.length == 0) {
+            throw new IllegalArgumentException("El array no puede estar vacío");
+        }
+
+        int mayor = notas[0]; // Inicializamos el máximo con el primer elemento
+
+        for (int nota : notas) {
+            if (nota < 0 || nota > 10) {
+                throw new IllegalArgumentException("Las notas no pueden ser superiores a 10 o inferiores 0");
+            }
+
+            if (nota > mayor) {
+                mayor = nota;
+            }
+        }
+
+        return mayor;
+    }
+
+}

@@ -1,0 +1,46 @@
+package Util;
+
+public class medianaNotas {
+
+
+public class MediaNotas {
+
+    /**
+     * Calcula y devuelve la mediana de las notas en un array.
+     *
+     * @param notas Array de notas enteras entre 0 y 10.
+     * @return Mediana de las notas con decimales.
+     * @throws IllegalArgumentException Si el array está vacío o contiene notas fuera del rango válido.
+     */
+    public static float medianaNota(int[] notas) {
+
+        // Validar que el array no esté vacío
+        if (notas.length == 0) {
+            throw new IllegalArgumentException("El array de notas no puede estar vacío");
+        }
+
+        // Validar que todas las notas estén entre 0 y 10
+        for (int nota : notas) {
+            if (nota < 0 || nota > 10) {
+                throw new IllegalArgumentException("Las notas deben estar entre 0 y 10");
+            }
+        }
+
+        // Ordenar el array de notas en orden ascendente
+        Arrays.sort(notas);
+
+        // Calcular la posición de la mediana
+        int indiceMediana = notas.length / 2;
+
+        // Si hay un número par de elementos, calcular la media de los dos elementos centrales
+        if (notas.length % 2 == 0) {
+            return (notas[indiceMediana - 1] + notas[indiceMediana]) / 2.0f;
+        }
+
+        // Si hay un número impar de elementos, devolver el elemento central como mediana
+        else {
+            return notas[indiceMediana];
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testMediana" project="PracticaArrays" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="Test.testMediana" time="0.037" displayname="testMediana" uniqueid="[engine:junit-jupiter]/[class:Test.testMediana]">
+    <testcase name="testPar" classname="Test.testMediana" time="0.034" displayname="testPar()" uniqueid="[engine:junit-jupiter]/[class:Test.testMediana]/[method:testPar()]">
+      <failure>
+        <expected>6.5</expected>
+        <actual>6.0</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;6.5&gt; but was: &lt;6.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)&#13;
+	at Test.testMediana.testPar(testMediana.java:18)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testImpar" classname="Test.testMediana" time="0.001" displayname="testImpar()" uniqueid="[engine:junit-jupiter]/[class:Test.testMediana]/[method:testImpar()]"/>
+    <testcase name="testVacio" classname="Test.testMediana" time="0.001" displayname="testVacio()" uniqueid="[engine:junit-jupiter]/[class:Test.testMediana]/[method:testVacio()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,17 @@
+package Test;
+
+import Util.mediaNotas;
+
+class Test {
+
+	@test
+	
+	public void testMediaPositiva() {
+		int[] notas = { 5, 7, 2, 4, 9, 1, 3 };
+		float mediaEsperada = 5.0f;
+
+		float mediaCalculada = mediaNotas.notaMedia(notas);
+
+	}
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testMinima" project="PracticaArrays" tests="2" started="2" failures="2" errors="0" ignored="0">
+  <testsuite name="Test.testMinima" time="0.061" displayname="testMinima" uniqueid="[engine:junit-jupiter]/[class:Test.testMinima]">
+    <testcase name="testMax1" classname="Test.testMinima" time="0.056" displayname="testMax1()" uniqueid="[engine:junit-jupiter]/[class:Test.testMinima]/[method:testMax1()]">
+      <failure>
+        <expected>10</expected>
+        <actual>5</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;10&gt; but was: &lt;5&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)&#13;
+	at Test.testMinima.testMax1(testMinima.java:22)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testMax2" classname="Test.testMinima" time="0.004" displayname="testMax2()" uniqueid="[engine:junit-jupiter]/[class:Test.testMinima]/[method:testMax2()]">
+      <failure>
+        <expected>7</expected>
+        <actual>5</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;7&gt; but was: &lt;5&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)&#13;
+	at Test.testMinima.testMax2(testMinima.java:32)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

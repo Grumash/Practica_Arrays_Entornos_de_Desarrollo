@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testMaximo.textfallo" project="PracticaArrays" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Test.testMaximo" time="0.004" displayname="testMaximo" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]">
+    <testcase name="textfallo" classname="Test.testMaximo" time="0.004" displayname="textfallo()" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]/[method:textfallo()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "}" to complete ClassBody
+&#13;
+	at Test.testMaximo.&lt;init&gt;(testMaximo.java:42)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

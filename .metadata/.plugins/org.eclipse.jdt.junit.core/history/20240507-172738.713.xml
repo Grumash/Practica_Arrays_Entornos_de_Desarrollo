@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testMaximo" project="PracticaArrays" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="Test.testMaximo" time="0.021" displayname="testMaximo" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]">
+    <testcase name="testMax1" classname="Test.testMaximo" time="0.019" displayname="testMax1()" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]/[method:testMax1()]"/>
+    <testcase name="testMax2" classname="Test.testMaximo" time="0.001" displayname="testMax2()" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]/[method:testMax2()]"/>
+  </testsuite>
+</testrun>

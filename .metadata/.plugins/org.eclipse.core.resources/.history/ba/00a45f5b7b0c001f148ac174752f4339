@@ -1,0 +1,17 @@
+package Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+import Util.mediaNotas;
+class Test {
+
+	 
+	    public void testCalcularMedia_HappyPath() {
+	        int[] numeros = {5, 7, 2, 4, 9, 1, 3};
+	        float expectedMedia = 4.71f;
+
+	        float actualMedia = mediaNotas.mediaNotas(nota);
+
+	        mediaNotas(expectedMedia, actualMedia, 0.01f); // Allow a delta of 0.01 for floating point comparison
+	    }
+	
+}

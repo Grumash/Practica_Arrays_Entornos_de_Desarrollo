@@ -1,0 +1,9 @@
+package Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+import Util.mediaNotas;
+class Test {
+
+	
+	
+}

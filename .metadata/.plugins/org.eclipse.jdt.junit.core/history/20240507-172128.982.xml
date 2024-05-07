@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testMaximo" project="PracticaArrays" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="Test.testMaximo" time="0.036" displayname="testMaximo" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]">
+    <testcase name="testfallo" classname="Test.testMaximo" time="0.031" displayname="testfallo()" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]/[method:testfallo()]">
+      <failure>
+        <expected>-7</expected>
+        <actual>7</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;-7&gt; but was: &lt;7&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)&#13;
+	at Test.testMaximo.testfallo(testMaximo.java:38)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testMax1" classname="Test.testMaximo" time="0.001" displayname="testMax1()" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]/[method:testMax1()]"/>
+    <testcase name="testMax2" classname="Test.testMaximo" time="0.002" displayname="testMax2()" uniqueid="[engine:junit-jupiter]/[class:Test.testMaximo]/[method:testMax2()]"/>
+  </testsuite>
+</testrun>
