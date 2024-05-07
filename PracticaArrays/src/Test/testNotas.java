@@ -1,6 +1,7 @@
 package Test;
 
 import Util.mediaNotas;
+import Util.medianaNotas;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -16,7 +17,7 @@ class testNotas {
 		float mediaEsperada = 5.0f;
 
 		float mediaCalculada = mediaNotas.notaMedia(notas);
-		
+
 		assertEquals(mediaEsperada, mediaCalculada, 5);
 	}
 
@@ -28,5 +29,18 @@ class testNotas {
 		float mediaCalculada = mediaNotas.notaMedia(notas);
 		assertEquals(mediaEsperada, mediaCalculada, 4);
 
+	}
+	
+	
+	@Test
+	public void testVacio() {
+		int[] notas = {};
+
+		try {
+			medianaNotas.notaMediana(notas);
+			fail("Se esperaba una excepción IllegalArgumentException");
+		} catch (IllegalArgumentException e) {
+			assertEquals("El array de notas no puede estar vacío", e.getMessage());
+		}
 	}
 }

@@ -14,10 +14,6 @@ public class mediaNotas {
 	 */
 	public static float notaMedia(int[] notas) {
 
-		if (notas.length == 0) {
-			throw new IllegalArgumentException("El array no puede estar vacio");
-		}
-
 		float media = 0;
 
 		for (int nota : notas) {

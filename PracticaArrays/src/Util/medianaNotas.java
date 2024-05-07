@@ -4,36 +4,35 @@ import java.util.Arrays;
 
 public class medianaNotas {
 
+	/**
+	 * 
+	 * 
+	 * @param pasamos el array para que nos de la logitud del array *
+	 * @return Nos devuelve una cosa u otrarsegun si es par o no
+	 */
+	public static float notaMediana(int[] notas) {
 
-		/**
-		 * 
-		 * 
-		 * @param pasamos el array para que nos de la logitud del array *
-		 * @return Nos devuelve una cosa u otrarsegun si es par o no
-		 */
-		public static float notaMediana(int[] notas) {
-
-			if (notas.length == 0) {
-				throw new IllegalArgumentException("El array de notas no puede estar vacío");
-			}
-
-			for (int nota : notas) {
-				if (nota < 0 || nota > 10) {
-					throw new IllegalArgumentException("Las notas deben estar entre 0 y 10");
-				}
-			}
-
-			Arrays.sort(notas);
-
-			int Mediana = notas.length / 2;
-
-			if (notas.length % 2 == 0) {
-				return (notas[Mediana - 1] + notas[Mediana]) / 2;
-			}
-
-			else {
-				return notas[Mediana];
-			}
-
+		if (notas.length == 0) {
+			throw new IllegalArgumentException("El array de notas no puede estar vacío");
 		}
+
+		for (int nota : notas) {
+			if (nota < 0 || nota > 10) {
+				throw new IllegalArgumentException("Las notas no pueden ser superiores a 10 o inferiores 0");
+			}
+		}
+
+		Arrays.sort(notas);
+
+		int Mediana = notas.length / 2;
+
+		if (notas.length % 2 == 0) {
+			return (notas[Mediana - 1] + notas[Mediana]) / 2;
+		}
+
+		else {
+			return notas[Mediana];
+		}
+
 	}
+}
