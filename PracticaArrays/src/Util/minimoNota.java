@@ -10,7 +10,7 @@ public class minimoNota {
      * @return no sdevuelve le nuemro mas grande que tiene el array
      *
      */
-    public static int notaMaxima(int[] notas) {
+    public static int notaMinima(int[] notas) {
 
         int menor = notas[0];
 
