@@ -1,0 +1,25 @@
+package Util;
+
+public class mediaNotas {
+
+	public static float notaMedia(int[] notas) {
+
+		if (notas.length == 0) {
+			throw new IllegalArgumentException("El array no puede estar vacio");
+		}
+
+		float suma=0;
+
+		for (int nota : notas) {
+
+			if (nota < 0 || nota > 10) {
+
+				throw new IllegalArgumentException("Las notas no pueden ser superiores a 10 o inferiores 0");
+
+			}
+			suma=nota;
+		}
+		return suma/notas.length;
+	}
+
+}
